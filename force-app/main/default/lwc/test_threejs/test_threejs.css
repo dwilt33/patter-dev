@@ -1,0 +1,32 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+canvas {
+display: block;
+}
+
+body,
+html {
+overflow-x: hidden;
+font-family: "PT Serif", serif;
+}
+
+.webgl {
+position: absolute;
+top: 0;
+left: 0;
+z-index: 1;
+}
+
+.title {
+color: #fff;
+z-index: 2;
+position: absolute;
+font-size: 3rem;
+left: 50%;
+bottom: 10%;
+transform: translate(-50%, -75%);
+}
