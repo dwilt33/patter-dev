@@ -48,7 +48,7 @@ export default class Test_threejs extends LightningElement {
             const renderer = new THREE.WebGLRenderer({ canvas });
             renderer.setSize(sizes.width, sizes.height);
             renderer.render(scene, camera);
-            // update 2
+            // update 3
 
             // const controls = new OrbitControls(camera, renderer.domElement);
             // controls.enableDamping = true;
